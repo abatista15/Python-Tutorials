@@ -1,0 +1,37 @@
+#Functions = a block of resuable code 
+#Default arguments = a default value for perameters
+#     #default is used if an argument is omitted
+#     #reduces number of args
+#Variable  =  a container for a value, it acts like if it is the value it contains
+#TypeCasting = Converting a variable from one data type to another
+#input =  Returns data as a string
+#Terinary operators = a one line version of if else
+#Logical operators
+#String methods
+#Indexing = accessing elements of a sequence using []
+    #[start : end : step]
+#format specifiers = {value:flags} format a value based on what flags are used
+#while loop excecutes some code WHILE some condition reamains true
+#for loop = execute a block of code a fixed number of times. You can iterate over a range, string, sequence, etc.
+    #(start,stop,step)
+    #range is for ints not lists
+#nested loop = A loop within another loop (outer, inner)
+#collection = a single variable used to store multiple values
+    #list = [] ordered and changeable. Duplicates OK
+    #tuple = () ordered and unchangeable. Duplicates OK faster
+    #Set = {} unordered and unchangable, but Add/Remove OK. Nom dupes
+    #value in a collection is known as an element
+#dictionary = a collection of {key:value} pairs
+            #ordered and changeable. No dupes
+#list comprehension=   [expression "for"value in iterable (you can also add expressions like if afater this)]
+    #EX doubles = [x * 2 for x in range(1,11) ]  
+                    #OR
+    #doubles = []
+    #for x in range(1,11):
+        #list.append[x*2]
+
+grades = [85,42,79,90,56,91,30]
+
+passing_grades = [grade for grade in grades if grade >=60]
+
+print(passing_grades)
